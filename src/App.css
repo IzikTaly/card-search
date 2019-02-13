@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #ffd1d1;
 }
 
 .App-logo {
@@ -8,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffd1d1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,3 +31,159 @@
     transform: rotate(360deg);
   }
 }
+
+/* Boxes Styling */
+
+.all-bg{
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffd1d1;
+}
+
+header{
+  padding: 25px;
+  margin: 10px auto;
+  margin-bottom: 0px;
+  width: 60vw;
+  border-color: #280735 #ffd1d1 #280735 #ffd1d1;
+  border-style: ridge solid groove solid;
+  border-width: 30px 10px 15px 10px;
+  background-image: linear-gradient( #42f4e5, #4e387a);
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 9px; 
+  text-shadow: 0px 4px 25px #4e387a;
+}
+
+.input-form{
+  display: flex;
+  justify-content: center;
+}
+
+.input-field{
+  width: 45vw;
+  padding: 10px;
+  border-bottom: 5px ridge #280735;
+  border-top: 0px solid #ffd1d1;
+  border-right: 0px solid #ffd1d1;
+  border-left: 10px ridge #280735;
+}
+
+.submit-button{
+  border-bottom: 5px ridge #280735;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 10px ridge #280735;
+}
+
+.divider-top{
+  display: inline-block;
+  width: 55vw;
+  border-color: white #ffd1d1 #280735 #ffd1d1;
+  border-style: ridge solid ridge solid;
+  border-width: 0px 5px 20px 5px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.card-name{
+  background-image: radial-gradient( circle, #c2b6db, #4e387a );
+  border: 5px ridge #280735;
+  width: 100vw;
+  color: #aa0d47;
+  letter-spacing: 2px; 
+  text-shadow: 0px 2px 4px #aa00ff;
+}
+
+.image-display{
+  /*Remove BG color eventually, leave it on to visualize space*/
+  background-color:;
+  width: 100vw;
+}
+
+.art-by{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.artist-button{
+  color: white;
+  background-color: #7575ba;
+  border: none;
+  padding: 6px 9px;
+  text-align: center;
+  border-radius: 2px;
+  transition-duration: .5s;
+}
+
+.fav-button{
+  margin: 10px;
+  color: white;
+  background-color: #7575ba;
+  border: none;
+  padding: 6px 9px;
+  text-align: center;
+  border-radius: 2px;
+  transition-duration: .5s;
+}
+
+.artist-button:hover{
+  background-color: #e50935;
+  color: #8f8dba;
+}
+
+.fav-button:hover{
+  background-color: #e50935;
+  color: #8f8dba;
+}
+
+#card-artist{
+  background-color: #4e387a;
+  width: 60vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: scroll auto;
+  list-style-type: none;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.card{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button{
+   margin: 10px;
+  color: white;
+  background-color: #7575ba;
+  border: none;
+  padding: 6px 9px;
+  text-align: center;
+  border-radius: 2px;
+  transition-duration: .5s;
+}
+
+.delete-button:hover{
+  background-color: #e50935;
+  color: #8f8dba;
+}
+
+.favorite-box{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+
